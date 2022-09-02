@@ -1,7 +1,40 @@
 .header{
     background-color: #101011;
     height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 90px;
     &__left{
         display: flex;
+    }
+    &__logo{
+        margin: 0 90px 0 0;
+    }
+}
+
+.profile{
+    &__body{
+        display: flex;
+        align-items: center;
+    }
+    &__notification{
+        color: #fff;
+        transform: scale(2.5);
+        margin: 0 50px 0 0;
+    }
+    &__mini{
+        display: flex;
+        align-items: center;
+    }
+    &__avatar{
+        border-radius: 50%;
+        margin: 0 10px 0 0;
+    }
+    &__opener{
+        display: block;
+        margin: 10px 0 0 0;
+        border: 8px solid transparent; 
+        border-top: 8px solid #fff;
     }
 }

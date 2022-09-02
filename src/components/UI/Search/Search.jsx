@@ -6,6 +6,7 @@ function Search() {
         <a href="/" className={styles.search__logo}>
             <i class='bx bx-search' />
         </a>
+        <input type="text" className={styles.search__input} placeholder="I'm searching for..." />
     </div>
 }
 

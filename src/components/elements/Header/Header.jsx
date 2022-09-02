@@ -6,7 +6,7 @@ import Profile from "./Profile";
 function Header() {
     return <div className={styles.header}>
         <div className={styles.header__left}>
-            <a href="/">
+            <a href="/" className={styles.header__logo}>
                 <img
                     src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png"
                     alt="Netflix"
