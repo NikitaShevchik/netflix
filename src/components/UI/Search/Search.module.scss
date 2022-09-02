@@ -1,0 +1,13 @@
+.search{
+    background-color: #030303;
+    width: 440px;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    &__logo{
+        color: #fff;
+        .bx-search{
+            scale: 20;
+        }
+    }
+}
