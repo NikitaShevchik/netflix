@@ -37,4 +37,15 @@
         border: 8px solid transparent; 
         border-top: 8px solid #fff;
     }
+    &__redcircle{
+        width: 6px;
+        height: 6px;
+        background-color: #c62e21;
+        display: block;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border: 1px solid #000;
+    }
 }

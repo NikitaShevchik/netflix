@@ -6,6 +6,7 @@ function Profile() {
         <div className={styles.profile__body}>
             <a href="/" className={styles.profile__notification}>
                 <i class='bx bxs-bell'></i>
+                <span className={styles.profile__redcircle}></span>
             </a>
             <div >
                 <a href="/" className={styles.profile__mini}>
@@ -18,7 +19,6 @@ function Profile() {
                     />
                     <div className={styles.profile__opener}></div>
                 </a>
-
             </div>
         </div>
     </div>

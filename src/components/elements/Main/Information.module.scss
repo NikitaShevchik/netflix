@@ -1,0 +1,32 @@
+.information{
+    margin: 100px 0 0 190px;
+    &__logo{    
+        margin: 0 0 25px 0;
+    }
+    &__image{
+        width: 250px;
+    }
+    &__details{
+        display: flex;
+        align-items: center;
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 20px;
+        div{
+            margin: 0 25px 0 0;
+        }
+    }
+    &__year{
+
+    }
+    &__age{
+        border: 1px solid rgba(255, 255, 255, 0.7);
+        border-radius: 8px;
+        padding: 4px 8px;
+    }
+    &__rating{
+
+    }
+    &__duration{
+
+    }
+}

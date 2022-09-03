@@ -16,10 +16,15 @@
         border: none;
         color: #fff;
         font-size: 22px;
-        width: 300px;
+        width: 290px;
         &:active, &:hover, &:focus{
             outline: 0;
             outline-offset: 0;
         }
+    }
+    &__customize{
+    color: #fff;
+    transform: scale(1.7);
+    margin: 0 0 0 25px;
     }
 }
