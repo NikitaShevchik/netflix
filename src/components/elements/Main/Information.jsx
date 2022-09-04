@@ -16,6 +16,10 @@ function Information({ movie }) {
         }
     }
 
+    function playMovie() {
+        alert(`${movie.name} начинает проигрываться!`)
+    }
+
 
     return <div className={styles.information}>
         <div className={styles.information__logo}>
@@ -36,6 +40,7 @@ function Information({ movie }) {
                 text='Play'
                 iconFS='60px'
                 iconColor='#c62e21'
+                cb={playMovie}
             />
             <Button
                 icon={<i className='bx bx-plus' ></i>}

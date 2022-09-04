@@ -1,6 +1,6 @@
 .wrapper{
     position: relative;
-    height: calc(100vh - 140px);
+    min-height: 719px;
     &__main{
         position: relative;
         background-size: cover;
@@ -19,8 +19,8 @@
 }
 .information{
     position: relative;
-    margin: 70px 0 0 20px;
-    width: 30%;
+    margin: 120px 0 200px 20px;
+    max-width: 600px;
     font-size: 20px;
     line-height: 1.4;
     &__details{
@@ -41,7 +41,8 @@
         color: rgba(255, 255, 255, 0.7);
     }
     &__actions{
-        margin: 70px 0 100px 0;
+        margin: 70px 0 0 0;
+        width: 85%;
         display: flex;
         justify-content: space-between;
     }

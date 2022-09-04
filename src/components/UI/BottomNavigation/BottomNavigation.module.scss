@@ -8,12 +8,12 @@
     bottom: 0;
     button{
         background-color: transparent;
+        margin: 0 1rem;
         opacity: 0.8;
         color: #fff;
         border: none;
-        cursor: pointer;
         transition: border-color 0.3s linear, opacity 0.3s linear;
-        border-bottom:2px solid transparent;
+        border-bottom:4px solid transparent;
         padding-bottom: 10px;
         font-size: 20px;
         text-transform: uppercase;
@@ -24,6 +24,6 @@
     }
 }
 .active{
-    border-color: #c62e21;
-    opacity: 1;
+    border-color: #c62e21 !important;
+    opacity: 1 !important;
 }
